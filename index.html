@@ -3,7 +3,7 @@
 <html lang="en">
 <head>
   <meta charset="utf-8">
-  <title>Mountains</title>
+  <title>PORTLAND</title>
   <meta name="description" content="mountain css animate">
   <meta name="author" content="SitePoint">
   <link rel="stylesheet" href="styles.css">
@@ -12,22 +12,31 @@
 
 <body>
     <center>
-            <div id="scene">
-            <div data-depth="0.4" id="main" class="container">
-                <div data-depth="0.6">
-                    <img id="block_one" src="assets/pdx_sm.jpg" alt="layer one">
+            <div id="main" class="container">
+                <div data-relative-input="true" id="scene">
+                    <div data-depth="0.6">
+                        <img id="block_one" src="assets/pdx_sm.jpg" alt="layer one">
+                    </div>
+                    <div data-depth="0.5">
+                        <img id="block_two" src="assets/portland_outline.png" alt="layer two">
+                    </div>
+                    <div data-depth="0.7">
+                        <img id="block_three" src="assets/portland_solid.png" alt="layer three">
+                    </div>
+                    <div data-depth="0.5">
+                        <img id="block_four" src="assets/portland_outline.png" alt="layer four">
+                    </div>
                 </div>
-                <div data-depth="0.5">
-                    <img class="block_two" src="assets/portland_outline.png" alt="layer two">
-                </div>
-                <div data-depth="0.5">
-                    <img id="block_three" src="assets/portland_solid.png" alt="layer three">
-                </div>
-                <div data-depth="0.5">
-                    <img class="block_four" src="assets/portland_outline.png" alt="layer four">
-                </div>
-            </div>
             </div>
     </center>
+
 </body>
+<script>
+    var scene = document.getElementById('scene');
+    var parallaxInstance = new Parallax(scene, {
+        relativeInput: true,
+        hoverOnly: true,
+        clipRelativeInput: true,
+    });
+</script>
 </html>

@@ -3,12 +3,13 @@ body {
     background-position-x: center;
     background-color: rgb(35, 50, 56);
     /* display: inline-block; */
+    /* overflow: hidden; */
   }
   
   #main {
       background-image: url("assets/pdx.png");
       background-repeat: no-repeat;
-      background-size: 50vw;
+      background-size: 40vw;
       height: 100vh;
       display: block; 
       position: static;
@@ -35,15 +36,15 @@ body {
   
   #block_two {
       width: 75vw;
-      /* transform: translateY(78.5%); */
+      transform: translateY(-285%);
   }
   
   #block_three {
       width: 75vw;
-      /* transform: translateY(118%); */
+      transform: translateY(-285%);
   }
   
   #block_four {
       width: 75vw;
-      /* transform: translateY(165%); */
+      transform: translateY(-285%);
    }
