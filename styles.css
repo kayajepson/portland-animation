@@ -1,6 +1,6 @@
 body {
     background-size: 100%;
-    background-color: rgb(35, 50, 56);
+    background-color: rgb(29, 41, 36);
     overflow: hidden;
     margin: 0; 
     padding:0;
@@ -8,15 +8,18 @@ body {
   }
   
   #main {
-      background-image: url("assets/pdx.png");
+      background-image: url("assets/fog.jpg");
       background-repeat: no-repeat;
       background-size: contain;
       height: 100vh;
+      width: 100vw;
+      background-position: center;
       background-position-x: center;      
     }
 
   #scene {
-    width: 75vw;
+    height: 100vh;
+    width: 100vw;
     text-align:center;
     margin: 0 auto;
     /* position: relative; */
@@ -24,20 +27,40 @@ body {
   
   #block_one {
     height: 85vh;
-    transform: translate3D(22.5vw, 10vh, 50px);
+    transform: translate3D(35vw, 5vh, 50px);
   }
   
   #block_two {
     width: 95vw;
-    transform: translate3D(-10vw, 15vh, 0px);
+    transform: translate3D(3vw, 15vh, 0px);
   }
   
   #block_three {
       width: 95vw;
-      transform: translate3D(-10vw, 40vh, 80px);
+      transform: translate3D(3vw, 40vh, 80px);
   }
   
   #block_four {
     width: 95vw;
-    transform: translate3D(-10vw, 65vh, 0px);
+    transform: translate3D(3vw, 65vh, 0px);
    }
+
+   h4 {
+     color: white;
+     float: right;
+     margin-right: 2vh;
+     font-size: 2vh;
+     margin-top: -3vh;
+     font-family: sans-serif;
+     font-weight: 100;
+   }
+
+   h5 {
+    color: white;
+    float: left;
+    margin-left: 2vh;
+    font-size: 2vh;
+    margin-top: -3vh;
+    font-family: sans-serif;
+    font-weight: 100;
+  }
