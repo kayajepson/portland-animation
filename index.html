@@ -13,17 +13,17 @@
             <div id="main" class="container">
                 <div data-relative-input="true" id="scene">
                     <div data-depth="0.6">
-                        <img id="block_one" src="assets/pdx_sm.jpg" alt="layer one">
-                    </div>
-                    <div data-depth="0.5">
                         <img id="block_two" src="assets/portland_outline.png" alt="layer two">
                     </div>
-                    <div data-depth="0.7">
-                        <img id="block_three" src="assets/portland_solid.png" alt="layer three">
-                    </div>
-                    <div data-depth="0.5">
+                    <div data-depth="0.6">
                         <img id="block_four" src="assets/portland_outline.png" alt="layer four">
                     </div>
+                    <div data-depth="0.2">
+                        <img id="block_one" src="assets/pdx_sm.jpg" alt="layer one">
+                    </div>
+                    <div data-depth="0.8">
+                        <img id="block_three" src="assets/portland_solid.png" alt="layer three">
+                     </div>
                 </div>
             </div>
 
@@ -31,9 +31,9 @@
 <script>
     var scene = document.getElementById('scene');
     var parallaxInstance = new Parallax(scene, {
-        relativeInput: true,
-        hoverOnly: true,
-        clipRelativeInput: true,
+        // relativeInput: true,
+        // hoverOnly: true,
+        // clipRelativeInput: true,
     });
 </script>
 </html>

@@ -18,25 +18,26 @@ body {
   #scene {
     width: 75vw;
     text-align:center;
+    margin: 0 auto;
+    /* position: relative; */
 }
   
   #block_one {
     height: 85vh;
-    transform: translate3D(0, 5%, 0);
-    pointer-events: none;
+    transform: translate3D(22.5vw, 10vh, 50px);
   }
   
   #block_two {
-      width: 95vw;
-      transform: translate3D(0, 35%, 0);
+    width: 95vw;
+    transform: translate3D(-10vw, 15vh, 0px);
   }
   
   #block_three {
       width: 95vw;
-      transform: translate3D(0, 105%, 0);
+      transform: translate3D(-10vw, 40vh, 80px);
   }
   
   #block_four {
-      width: 95vw;
-      transform: translate3D(0, 175%, 0);
+    width: 95vw;
+    transform: translate3D(-10vw, 65vh, 0px);
    }
