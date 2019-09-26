@@ -1,50 +1,42 @@
 body {
     background-size: 100%;
-    background-position-x: center;
     background-color: rgb(35, 50, 56);
-    /* display: inline-block; */
-    /* overflow: hidden; */
+    overflow: hidden;
+    margin: 0; 
+    padding:0;
+    text-align:center;
   }
   
   #main {
       background-image: url("assets/pdx.png");
       background-repeat: no-repeat;
-      background-size: 40vw;
+      background-size: contain;
       height: 100vh;
-      display: block; 
-      position: static;
-      background-position-x: center;
-  }
-  
-  .container {
-    position: relative;
-  }
- 
+      background-position-x: center;      
+    }
+
+  #scene {
+    width: 75vw;
+    text-align:center;
+}
   
   #block_one {
-      width: 55vh;
-      transform: translateY(5%); 
+    height: 85vh;
+    transform: translate3D(0, 5%, 0);
+    pointer-events: none;
   }
   
-  /* #shit {
-    width: 75vw;
-      z-index: 5;
-      transform: translateY(55%);
-      transition: 1s;
-      background-color: #2196F3;
-  } */
-  
   #block_two {
-      width: 75vw;
-      transform: translateY(-285%);
+      width: 95vw;
+      transform: translate3D(0, 35%, 0);
   }
   
   #block_three {
-      width: 75vw;
-      transform: translateY(-285%);
+      width: 95vw;
+      transform: translate3D(0, 105%, 0);
   }
   
   #block_four {
-      width: 75vw;
-      transform: translateY(-285%);
+      width: 95vw;
+      transform: translate3D(0, 175%, 0);
    }
