@@ -31,17 +31,17 @@ body {
   
   #block_two {
     width: 95vw;
-    transform: translate3D(0, 10vh, 0px);
+    transform: translate3D(0, 6vh, 0px);
   }
   
   #block_three {
       width: 95vw;
-      transform: translate3D(3vw, 40vh, 80px);
+      transform: translate3D(3vw, 35vh, 80px);
   }
   
   #block_four {
     width: 95vw;
-    transform: translate3D(3vw, 65vh, 0px);
+    transform: translate3D(3vw, 60vh, 0px);
    }
 
    h4 {
@@ -82,4 +82,11 @@ body {
     font-family: sans-serif;
     font-weight: 100;
     margin-top: 1vh;
+  }
+
+  @media only screen and (max-width: 600px) {
+    #block_one {
+    height: 65vh;
+    transform: translate3D(10vw, 20vh, 50px);
+    }
   }
