@@ -22,7 +22,6 @@ body {
     width: 100vw;
     text-align:center;
     margin: 0 auto;
-    /* position: relative; */
 }
   
   #block_one {
@@ -32,7 +31,7 @@ body {
   
   #block_two {
     width: 95vw;
-    transform: translate3D(3vw, 15vh, 0px);
+    transform: translate3D(0, 10vh, 0px);
   }
   
   #block_three {
@@ -63,4 +62,24 @@ body {
     margin-top: -3vh;
     font-family: sans-serif;
     font-weight: 100;
+  }
+
+  h6 {
+    color: white;
+    float: left;
+    margin-left: 2vh;
+    font-size: 2vh;
+    font-family: sans-serif;
+    font-weight: 100;
+    margin-top: 1vh;
+  }
+
+  h2 {
+    color: white;
+    float: right;
+    margin-right: 2vh;
+    font-size: 2vh;
+    font-family: sans-serif;
+    font-weight: 100;
+    margin-top: 1vh;
   }
