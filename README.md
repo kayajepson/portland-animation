@@ -7,6 +7,9 @@ The animations seen on their feed are primarily done in After Effects so I wante
 This particular animation was inspired by [this meetup animation](https://dribbble.com/shots/6136070-Los-Angeles "Green Chameleon animation").
 Utilizes the [Parallax.js library by wagerfield](https://github.com/wagerfield/parallax "parallax.js").
 
+## VIEW LIVE VERSION
+
+[Live version here](https://kayajepson.github.io/portland-animation/ "mountain animation")
 
 ## ORIGINAL WEBSITE SCREEN SHOTS
 
