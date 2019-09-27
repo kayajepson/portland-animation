@@ -10,6 +10,7 @@ Utilizes the [Parallax.js library by wagerfield](https://github.com/wagerfield/p
 ## VIEW LIVE VERSION
 
 [Live version here](https://kayajepson.github.io/portland-animation/ "mountain animation")
+Also check out on mobile for some super fun gyroscope action.
 
 ## ORIGINAL WEBSITE SCREEN SHOTS
 
